@@ -293,11 +293,17 @@ a:hover {
   color: black;
   margin: 10px 0px !important;
 }
+
 .provider-container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
+
 .provider-name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   margin-left: 10px;
 }
 
