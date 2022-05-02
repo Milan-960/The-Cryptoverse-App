@@ -25,7 +25,7 @@ const Exchanges = () => {
       </Row>
       <Row>
         <div>
-          <h1>Do not have acces from API provider to show the data</h1>
+          <h1>Do not have acces from API provider to show the data!!</h1>
         </div>
         {exchangesList?.map((exchange) => (
           <Col span={24}>
