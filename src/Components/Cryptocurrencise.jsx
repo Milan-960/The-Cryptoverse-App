@@ -27,7 +27,6 @@ const Cryptocurrencise = ({ simplified }) => {
   }, [cryptosList, searchTerm]);
 
   if (isFetching) return "Loading cryptos....";
-  console.log(cryptos);
 
   return (
     <>
@@ -41,14 +40,8 @@ const Cryptocurrencise = ({ simplified }) => {
       )}
 
       <Row gutter={[32, 32]} className="crypto-card-container">
-        {cryptos?.map((currency) => (
-          <Col
-            xs={24}
-            sm={12}
-            lg={6}
-            className="crypto-card"
-            key={currency.uuid}
-          >
+        {cryptos?.map((currency, uuid) => (
+          <Col xs={24} sm={12} lg={6} className="crypto-card" key={uuid}>
             <Link to={`/crypto/${currency.uuid}`}>
               <Card
                 title={`${currency.rank}. ${currency.name}`}
