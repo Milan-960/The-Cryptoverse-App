@@ -3,7 +3,7 @@
 
 # The Cryptoverse 🔥
 
-# This is a cryptoverse App that was built using CryptAPIs and is a PWA web app! 🔥
+# This is a cryptoverse App that was built using CryptAPIs and is a PWA web app. It show very updated data of all the cryptocurrencies. 🔥 🔥
 
 ### For clone this repository in your pc pest below link in your terminal 👇
 
@@ -40,3 +40,7 @@ ESLINT_NO_DEV_ERRORS = true
 <h1>News Page</h1>
 <img align="right" src="./SS/news1.png" width="100%"/>
 <p>&nbsp;</p>
+
+## Author 😎
+
+- **[Milan Sachani](https://github.com/milan-960)**
