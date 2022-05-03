@@ -9,6 +9,7 @@ import * as serviceWorkerRegistration from "./serviceWorkerRegistration";
 import reportWebVitals from "./reportWebVitals";
 
 import store from "./store/store";
+import AnimatedPointer from "./Animation/Animation";
 
 import "antd/dist/antd.min.css";
 
@@ -17,6 +18,7 @@ ReactDOM.render(
     <React.StrictMode>
       <Provider store={store}>
         <App />
+        <AnimatedPointer />
       </Provider>
     </React.StrictMode>
   </Router>,

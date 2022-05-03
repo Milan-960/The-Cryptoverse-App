@@ -24,6 +24,20 @@ a:hover {
   width: 100%;
 }
 
+.globmarket {
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.ant-statistic-title {
+  font-size: 20px !important;
+  color: rgba(0, 0, 0, 0.85) !important;
+  font-weight: 500 !important;
+}
+
 .navbar {
   flex: 0.2;
   background-color: rgb(0, 21, 41);
