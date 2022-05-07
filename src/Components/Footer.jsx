@@ -13,7 +13,7 @@ export const Footer = () => {
         style={{ color: "white", textAlign: "center" }}
       >
         Copyright © 2022
-        <Link to="/"> Cryptoverse Inc.</Link> <br />
+        <Link to="/"> Cryptoverse.</Link> <br />
         All Rights Reserved.
       </Typography.Title>
       <Space>
