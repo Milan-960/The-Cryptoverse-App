@@ -9,11 +9,11 @@ import {
   CryptoDetails,
   News,
   Home,
-} from "./Routes/index";
+} from "Routes/index";
 
 import "./App.css";
 
-import { Footer } from "./Components/Footer";
+import { Footer } from "Components/Footer";
 
 const App = () => {
   return (
