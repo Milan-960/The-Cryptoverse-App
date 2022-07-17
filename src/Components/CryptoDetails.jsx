@@ -8,7 +8,7 @@ import { Col, Row, Typography, Select } from "antd";
 import {
   useGetCryptoDetailsQuery,
   useGetCryptoHistoryQuery,
-} from "../Api/cryptoApi";
+} from "Api/cryptoApi";
 
 import LineChart from "./LineChart"
 

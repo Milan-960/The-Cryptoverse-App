@@ -3,7 +3,7 @@ import millify from "millify";
 import { Collapse, Row, Col, Typography, Avatar } from "antd";
 import HTMLReactParser from "html-react-parser";
 
-import { useGetExchangesQuery } from "../Api/cryptoApi";
+import { useGetExchangesQuery } from "Api/cryptoApi";
 import Loader from "./Loader";
 
 const { Text } = Typography;

@@ -4,8 +4,8 @@ import { Typography, Row, Col, Statistic } from "antd";
 import { Link } from "react-router-dom";
 import millify from "millify";
 
-import { useGetCryptosQuery } from "../Api/cryptoApi";
-import { Cryptocurrencise, News } from "../Routes/index";
+import { useGetCryptosQuery } from "Api/cryptoApi";
+import { Cryptocurrencise, News } from "Routes/index";
 
 const { Title } = Typography;
 
