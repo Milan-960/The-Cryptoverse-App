@@ -1,4 +1,3 @@
-
 import { configureStore } from "@reduxjs/toolkit";
 
 import { cryptoApi } from "Api/cryptoApi";
